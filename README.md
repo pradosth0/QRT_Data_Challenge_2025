@@ -1,6 +1,4 @@
-```markdown
-# Model Selection for Financial Time-Series Challenge
-
+# Submission for the QRT date challenge 2025
 ## Overview
 
 This project implements a model evaluation framework for a financial data challenge.  
