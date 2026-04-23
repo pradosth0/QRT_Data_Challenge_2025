@@ -92,30 +92,7 @@ This is particularly important in finance, where:
 
 This approach has several important limitations:
 
-- Random splits may introduce **sampling bias**
-- No strict enforcement of **temporal ordering**
 - Overlapping samples reduce independence between runs
-- Confidence intervals based on standard deviation may be **statistically unreliable**
-
----
-
-## Possible Improvements
-
-To make evaluation more robust:
-
-### Validation Strategy
-- Use **GroupKFold** (grouped by time-series)
-- Implement **walk-forward validation**
-- Apply **purged time-series cross-validation**
-
-### Statistical Rigor
-- Use **bootstrap confidence intervals**
-- Track **quantiles (e.g., 10%, 90%)**
-- Evaluate **worst-case performance**
-
-### Financial Relevance
-- Incorporate **time-based splits**
-- Add **embargo periods** to prevent leakage
 
 ---
 
