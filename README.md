@@ -1,4 +1,4 @@
-# Submission for the QRT date challenge 2025
+# Submission for the QRT data challenge 2025
 ## Overview
 
 This project implements a model evaluation framework for a financial data challenge.  
